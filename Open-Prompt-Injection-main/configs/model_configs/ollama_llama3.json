@@ -1,0 +1,6 @@
+{
+    "model_info": { "provider": "ollama", "name": "llama3:8b-instruct" },
+    "api_key_info": { "api_keys": [""], "api_key_use": 0 },
+    "params": { "temperature": 0.2, "max_output_tokens": 512, "seed": 0, "gpus": [] }
+  }
+  

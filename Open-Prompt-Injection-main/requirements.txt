@@ -1,0 +1,29 @@
+# Core provider SDKs
+google-generativeai>=0.8.0
+openai>=1.45.0
+tiktoken>=0.7.0
+
+# Hugging Face stack
+transformers==4.57.0
+accelerate==1.10.1
+datasets>=2.19.0
+evaluate>=0.4.2
+huggingface_hub>=0.24.0
+sentencepiece>=0.1.99
+safetensors>=0.4.2
+peft>=0.13.0
+einops>=0.7.0
+
+# Vicuna / FastChat backend (provides the "fastchat" module)
+fschat==0.2.36
+# FastChat compatibility pins (avoid pydantic v2 / newer fastapi)
+pydantic<2
+fastapi<0.110
+
+# Eval & utilities
+rouge>=1.0.1         # provides "from rouge import Rouge"
+nltk>=3.8.1
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+psutil>=5.9.0
